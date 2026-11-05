@@ -1,7 +1,7 @@
 package mwgrec.mixin;
 
-import ammm.block.blockentity.others.FluidGeneratorB;
 import com.github.misosoupTgit.mwgr.MWGRMod;
+import mwgrec.FluidGeneratorB;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.level.ItemLike;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;

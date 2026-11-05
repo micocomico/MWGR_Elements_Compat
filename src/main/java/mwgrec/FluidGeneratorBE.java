@@ -1,4 +1,4 @@
-package ammm.block.blockentity.others;
+package mwgrec;
 
 import com.github.misosoupTgit.mwgr.block.FluidGeneratorBlockEntity;
 import com.mojang.datafixers.types.Type;

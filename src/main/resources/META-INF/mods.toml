@@ -61,3 +61,16 @@ mandatory = true
 versionRange = "${minecraft_version_range}"
 ordering = "NONE"
 side = "BOTH"
+
+[[dependencies.${mod_id}]]
+modId="mwgr"
+mandatory=true
+versionRange="[1.1.9,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.${mod_id}]]
+modId="mwgr_ae"
+mandatory=false
+versionRange="[1.0.1,)"
+ordering="BEFORE"
+side="BOTH"

@@ -2,9 +2,12 @@
   "required": true,
   "minVersion": "0.8",
   "package": "mwgrec.mixin",
+  "plugin": "mwgrec.mixin.MWGRECMixinPlugin",
   "compatibilityLevel": "JAVA_8",
   "refmap": "mwgr_elements_compat.refmap.json",
   "mixins": [
+    "MWGRAEMixin",
+    "MWGRCreativetabMixin"
   ],
   "client": [
   ],
